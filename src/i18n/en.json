@@ -1,0 +1,106 @@
+{
+  "landing": {
+    "title": "Fresh From Farm To You",
+    "subtitle": "Buy directly from local farmers. No middlemen. Fair prices.",
+    "farmer": "I'm a Farmer",
+    "farmerDesc": "Sell your crops directly to consumers",
+    "consumer": "I'm a Consumer",
+    "consumerDesc": "Buy fresh produce directly from farms"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "listings": "My Listings",
+    "payout": "Payout",
+    "browse": "Browse Crops",
+    "logout": "Logout",
+    "netProfit": "Net Profit",
+    "language": "Language"
+  },
+  "farmer": {
+    "title": "Upload Your Crop",
+    "uploadImage": "Upload Image",
+    "takePhoto": "Take Photo",
+    "changeImage": "Change Image",
+    "cropName": "Crop Name",
+    "category": "Category",
+    "pricePerUnit": "Price per Unit (₹)",
+    "unit": "Unit",
+    "quantityAvailable": "Quantity Available",
+    "location": "Location (Village/District)",
+    "harvestDate": "Harvest Date",
+    "confirm": "Confirm & List",
+    "uploading": "Uploading...",
+    "success": "Crop listed successfully!",
+    "categories": {
+      "vegetables": "Vegetables",
+      "fruits": "Fruits",
+      "grains": "Grains",
+      "pulses": "Pulses",
+      "spices": "Spices",
+      "dairy": "Dairy",
+      "other": "Other"
+    },
+    "units": {
+      "kg": "Kilogram",
+      "quintal": "Quintal",
+      "dozen": "Dozen",
+      "piece": "Piece",
+      "litre": "Litre"
+    }
+  },
+  "consumer": {
+    "browse": "Browse Fresh Crops",
+    "all": "All",
+    "addToCart": "Add to Cart",
+    "addedToCart": "Added!",
+    "per": "per",
+    "soldOut": "Sold Out",
+    "available": "available",
+    "location": "Location",
+    "harvested": "Harvested",
+    "farmer": "Farmer",
+    "quantity": "Quantity",
+    "total": "Total"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "browse": "Browse Crops",
+    "subtotal": "Subtotal",
+    "platformFee": "Platform Fee (5%)",
+    "grandTotal": "Grand Total",
+    "checkout": "Checkout",
+    "processing": "Processing...",
+    "remove": "Remove"
+  },
+  "payment": {
+    "title": "Complete Payment",
+    "cardNumber": "Card Number",
+    "expiry": "Expiry",
+    "cvv": "CVV",
+    "pay": "Pay ₹",
+    "processing": "Processing...",
+    "success": "Payment Successful!",
+    "transactionId": "Transaction ID",
+    "thankYou": "Thank you for supporting local farmers!",
+    "close": "Close",
+    "rateSeller": "Rate this farmer",
+    "submitRating": "Submit Rating",
+    "thanksForRating": "Thanks for your rating!"
+  },
+  "payout": {
+    "title": "Payout",
+    "balance": "Available Balance",
+    "totalSales": "Total Sales",
+    "platformFee": "Platform Fee (5%)",
+    "bankAccount": "Bank Account Number",
+    "ifsc": "IFSC Code",
+    "requestPayout": "Request Payout",
+    "processing": "Processing payout...",
+    "success": "Payout initiated successfully!",
+    "history": "Payout History",
+    "noPayouts": "No payouts yet",
+    "completed": "Completed",
+    "processingStatus": "Processing"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "landing": {
+    "title": "खेत से सीधा आप तक",
+    "subtitle": "स्थानीय किसानों से सीधे खरीदें। कोई बिचौलिया नहीं। उचित मूल्य।",
+    "farmer": "मैं किसान हूँ",
+    "farmerDesc": "अपनी फसल सीधे उपभोक्ताओं को बेचें",
+    "consumer": "मैं उपभोक्ता हूँ",
+    "consumerDesc": "खेतों से सीधे ताज़ी सब्ज़ियाँ खरीदें"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "listings": "मेरी लिस्टिंग",
+    "payout": "भुगतान",
+    "browse": "फसलें देखें",
+    "logout": "लॉगआउट",
+    "netProfit": "शुद्ध लाभ",
+    "language": "भाषा"
+  },
+  "farmer": {
+    "title": "अपनी फसल अपलोड करें",
+    "uploadImage": "तस्वीर अपलोड करें",
+    "takePhoto": "फोटो लें",
+    "changeImage": "तस्वीर बदलें",
+    "cropName": "फसल का नाम",
+    "category": "श्रेणी",
+    "pricePerUnit": "प्रति यूनिट मूल्य (₹)",
+    "unit": "यूनिट",
+    "quantityAvailable": "उपलब्ध मात्रा",
+    "location": "स्थान (गाँव/जिला)",
+    "harvestDate": "कटाई की तारीख",
+    "confirm": "पुष्टि करें और लिस्ट करें",
+    "uploading": "अपलोड हो रहा है...",
+    "success": "फसल सफलतापूर्वक लिस्ट हो गई!",
+    "categories": {
+      "vegetables": "सब्ज़ियाँ",
+      "fruits": "फल",
+      "grains": "अनाज",
+      "pulses": "दालें",
+      "spices": "मसाले",
+      "dairy": "डेयरी",
+      "other": "अन्य"
+    },
+    "units": {
+      "kg": "किलोग्राम",
+      "quintal": "क्विंटल",
+      "dozen": "दर्जन",
+      "piece": "पीस",
+      "litre": "लीटर"
+    }
+  },
+  "consumer": {
+    "browse": "ताज़ी फसलें देखें",
+    "all": "सभी",
+    "addToCart": "कार्ट में डालें",
+    "addedToCart": "जोड़ा गया!",
+    "per": "प्रति",
+    "soldOut": "बिक गया",
+    "available": "उपलब्ध",
+    "location": "स्थान",
+    "harvested": "कटाई",
+    "farmer": "किसान",
+    "quantity": "मात्रा",
+    "total": "कुल"
+  },
+  "cart": {
+    "title": "आपकी कार्ट",
+    "empty": "आपकी कार्ट खाली है",
+    "browse": "फसलें देखें",
+    "subtotal": "उप-कुल",
+    "platformFee": "प्लेटफ़ॉर्म शुल्क (5%)",
+    "grandTotal": "कुल योग",
+    "checkout": "चेकआउट",
+    "processing": "प्रक्रिया हो रही है...",
+    "remove": "हटाएं"
+  },
+  "payment": {
+    "title": "भुगतान पूरा करें",
+    "cardNumber": "कार्ड नंबर",
+    "expiry": "समाप्ति",
+    "cvv": "CVV",
+    "pay": "₹ भुगतान करें",
+    "processing": "प्रक्रिया हो रही है...",
+    "success": "भुगतान सफल!",
+    "transactionId": "लेनदेन आईडी",
+    "thankYou": "स्थानीय किसानों का समर्थन करने के लिए धन्यवाद!",
+    "close": "बंद करें",
+    "rateSeller": "इस किसान को रेट करें",
+    "submitRating": "रेटिंग सबमिट करें",
+    "thanksForRating": "आपकी रेटिंग के लिए धन्यवाद!"
+  },
+  "payout": {
+    "title": "भुगतान",
+    "balance": "उपलब्ध शेष",
+    "totalSales": "कुल बिक्री",
+    "platformFee": "प्लेटफ़ॉर्म शुल्क (5%)",
+    "bankAccount": "बैंक खाता संख्या",
+    "ifsc": "IFSC कोड",
+    "requestPayout": "भुगतान का अनुरोध करें",
+    "processing": "भुगतान प्रक्रिया हो रही है...",
+    "success": "भुगतान सफलतापूर्वक शुरू हो गया!",
+    "history": "भुगतान इतिहास",
+    "noPayouts": "अभी तक कोई भुगतान नहीं",
+    "completed": "पूर्ण",
+    "processingStatus": "प्रक्रिया में"
+  }
+}
