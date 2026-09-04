@@ -25,7 +25,7 @@ export default function CartPage() {
   const platformFee = Math.round(totalPrice * 0.05);
   const grandTotal = totalPrice + platformFee;
 
-  const handleCheckout = async () => {
+  const handleCheckout = async (deliveryAddress: string) => {
     if (!user || items.length === 0) return;
     setProcessing(true);
 
@@ -52,6 +52,7 @@ export default function CartPage() {
           farmer_id: item.farmerId,
           quantity_purchased: item.quantity,
           amount: itemTotal,
+          delivery_address: deliveryAddress,
           payment_status: "completed",
           created_at: new Date().toISOString(),
         });
@@ -191,11 +192,11 @@ export default function CartPage() {
               </div>
 
               <button
-                onClick={handleCheckout}
+                onClick={() => setShowCheckout(true)}
                 disabled={processing}
                 className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3.5 rounded-xl transition-colors disabled:opacity-50 cursor-pointer"
               >
-                {processing ? t.cart.processing : `${t.cart.checkout} • ₹${grandTotal.toLocaleString("en-IN")}`}
+                {t.cart.checkout} • ₹{grandTotal.toLocaleString("en-IN")}
               </button>
 
               <p className="text-xs text-center text-foreground/30 mt-3">
@@ -212,6 +213,15 @@ export default function CartPage() {
             setShowSuccess(false);
             router.push("/consumer/browse");
           }}
+        />
+      )}
+
+      {showCheckout && (
+        <CheckoutModal
+          total={grandTotal}
+          onConfirm={(addr) => { setShowCheckout(false); handleCheckout(addr); }}
+          onCancel={() => setShowCheckout(false)}
+          processing={processing}
         />
       )}
     </div>
