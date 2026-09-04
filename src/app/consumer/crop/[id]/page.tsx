@@ -120,7 +120,7 @@ export default function CropDetail() {
       farmerName: crop.farmer_name,
       imageUrl: crop.image_url,
       maxQuantity: crop.quantity_available,
-    });
+    }, quantity);
     setAdded(true);
     setTimeout(() => setAdded(false), 2000);
   };

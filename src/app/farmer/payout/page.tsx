@@ -124,10 +124,6 @@ export default function PayoutPage() {
             <p className="text-foreground/50">{t.payout.totalSales}</p>
             <p className="font-medium">₹{user.total_sales.toLocaleString("en-IN")}</p>
           </div>
-          <div className="flex items-center justify-between mb-4 pb-4 border-b border-primary/10">
-            <p className="text-foreground/50">{t.payout.platformFee}</p>
-            <p className="font-medium text-foreground/40">₹{user.total_platform_fees.toLocaleString("en-IN")}</p>
-          </div>
           <p className="text-foreground/50 mb-1">{t.payout.balance}</p>
           <p className="text-4xl font-bold text-primary mb-6">
             ₹{user.net_profit.toLocaleString("en-IN")}
